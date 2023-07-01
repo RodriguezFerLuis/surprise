@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: repeating-linear-gradient(90deg, #800, #b22, #b22, #f55);
+}
+
+.container {
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	width: 100%;
+ 	height: 100vh;
+}
+
+.item {
+	font-family: 'Dancing Script', cursive;
+	color: #d9d;
+	font-size: 7.2rem;;
+	text-align: center;
+ 	animation-name: changeColor;
+ 	animation-duration: 5s;
+ 	animation-fill-mode: backwards;
+ 	animation-delay: 2s;
+}
+
+@keyframes changeColor {
+  	0% {
+  	  color: transparent;
+  	}
+  	50% {
+  	  color: rose;
+  	}
+  	100% {
+  	  color: #d9d;
+  	}
+}
+
+@media only screen and (max-width: 800px) {
+  	.item {
+  	  font-size: 4.6rem;
+  	  padding-top: 10%; 
+  	}
+}
+
+@media only screen and (max-width: 600px) {
+  	.item {
+  	  font-size: 3.2rem;
+  	  padding-top: 10%; 
+  	}
+}
