@@ -5,7 +5,7 @@
 }
 
 body {
-	background: repeating-linear-gradient(90deg, #800, #b22, #b22, #f55);
+	background: repeating-linear-gradient(90deg, #921682, #8b1d8b, #8b1d8b, #ff55e3);
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
 .item {
 	font-family: 'Dancing Script', cursive;
 	color: #d9d;
-	font-size: 7.2rem;;
+	font-size: 7.2rem;
 	text-align: center;
  	animation-name: changeColor;
  	animation-duration: 5s;
